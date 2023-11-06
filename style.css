@@ -1,0 +1,177 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #00bfff;
+}
+
+/* Style the main content area */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+/* Your existing CSS */
+
+/* Center the profile image and name */
+.profile {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Remove any text baseline alignment */
+}
+
+.profile h2 {
+    margin-top: 10px;
+}
+
+/* Your existing CSS */
+
+/* Style the education record */
+.education {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.education h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Style the education table */
+.edu-table {
+    width: 50%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+}
+
+.edu-table th,
+.edu-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.edu-table th {
+    background-color: #333;
+    color: white;
+}
+
+/* Style other elements, such as images, lists, and more, as needed */
+
+/* Add this code to your style.css */
+
+/* Style the hobbies and visited places */
+.hobbies {
+    background-color: aqua; /* Your background color choice */
+    border: 2px solid #333;
+    padding: 10px;
+    margin: 20px 200px;
+    border-radius: 5px;
+}
+
+.places-visited {
+    background-color: antiquewhite; /* Your background color choice */
+    border: 2px solid #333;
+    padding: 10px;
+    margin: 20px 200px;
+    border-radius: 5px;
+}
+
+.skills {
+    background-color: #FFA07A; /* Your background color choice */
+    border: 2px solid #333;
+    padding: 10px;
+    margin: 20px 200px;
+    border-radius: 5px;
+}
+
+.projects {
+    background-color: #90EE90; /* Your background color choice */
+    border: 2px solid #333;
+    padding: 10px;
+    margin: 20px 200px;
+    border-radius: 5px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/* Media query for screens with a maximum width of 600px */
+@media (max-width: 600px) {
+    .container {
+        max-width: 100%;
+    }
+}
